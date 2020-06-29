@@ -10,6 +10,7 @@ p{
 /*Navigation*/
 .navbar-brand img{
     width: 50px;
+    margin-left: 30px;
 }
 
 .navbar li img{
@@ -38,7 +39,7 @@ p{
 .nav-link{
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /*Jumbotron*/
@@ -119,12 +120,15 @@ main{
     flex-shrink: 0;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family:"Didot";
   }
 
   .slide img{
       height: 100%;
+      padding: 10px;
   }
 
   /*Sections*/
@@ -195,7 +199,7 @@ main{
 
 .section3 p{
     position: absolute;
-    width: 500px;
+    width: 450px;
     color: white;
     margin-left: 60px;
 }
