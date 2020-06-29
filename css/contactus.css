@@ -1,0 +1,75 @@
+
+h1{
+    font-family: "Didot";
+}
+
+p{
+    font-family: "Avenir";
+}
+
+/*Navigation*/
+.navbar-brand img{
+    width: 50px;
+    margin-left: 30px;
+}
+
+.navbar li img{
+    width: 20px;
+}
+
+.navbar li{
+    display: flex;
+    align-items: center;
+    font-family: "Avenir";
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Footer */
+.border{
+    background-color: #FFDAE6;
+    height: 40px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlink{
+    margin: 10px;
+    color: black;
+    font-family: "Avenir";
+}
+
+.contactus img{
+    margin: 10px;
+}
+
+.contactus{
+    text-align: center;
+}
