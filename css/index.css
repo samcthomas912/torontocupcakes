@@ -116,7 +116,7 @@ main{
     padding-bottom: 60px;
   }
   .slide {
-    width: 300px;
+    width: 260px;
     flex-shrink: 0;
     height: 100%;
     display: flex;
@@ -134,8 +134,9 @@ main{
   /*Sections*/
 
 .break{
-    height: 200px;
+    height: 300px;
     background-image: url("../images/cuttingboard.png");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -187,6 +188,7 @@ main{
     padding: 50px;
     margin: 100px;
     text-align: center;
+    box-shadow: 5px 10px 40px #111113b7;
 }
 
 .section3{
@@ -204,3 +206,36 @@ main{
     color: white;
     margin-left: 60px;
 }
+
+/* Footer */
+.border{
+    background-color: #FFDAE6;
+    height: 40px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlink{
+    margin: 10px;
+    color: black;
+    font-family: "Avenir";
+}
+
+.contactus img{
+    margin: 10px;
+}
+
+.contactus{
+    text-align: center;
+}
+
