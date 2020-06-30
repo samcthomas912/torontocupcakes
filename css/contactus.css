@@ -3,6 +3,15 @@ h1{
     font-family: "Didot";
 }
 
+h2{
+    font-family: "Didot";
+}
+
+h3{
+    font-family: "Avenir";
+    font-size: 30px;
+}
+
 p{
     font-family: "Avenir";
 }
@@ -40,6 +49,144 @@ p{
     color: black;
     text-decoration: none;
     font-size: 15px;
+}
+
+/*Jumbotron*/
+.jumbotron{
+    background-image: url("../images/roythomsonhall.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.jumbotext{
+    width: 700px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+}
+
+.jumbotext p{
+    margin: auto;
+    width: 80%;
+    font-size: 16px;
+}
+
+.jumbotron .btn{
+    color: white;
+    border-radius: 0px;
+    border-color: white;
+    background-color: black;
+}
+
+/*Location Hours*/
+.locationhours{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.location{
+    width: 50%;
+}
+
+.location img{
+    height: 200px;
+}
+
+.days p{
+    font-weight: bold;
+}
+
+.special{
+    color: #F2579A;
+}
+
+.call h3{
+    font-size: 25px;
+}
+
+.phonenumbers{
+    width: 900px;
+    margin: auto;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+}
+
+.number p{
+    margin: 0px;
+}
+
+
+.timesopen{
+    display: flex;
+}
+
+/*Contact Form*/
+
+.contact_us_form{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.contact_us_form img{
+    height: 550px;
+}
+
+
+form h1{
+    color: white;
+    margin: auto;
+    width: 50%
+}
+
+form p{
+    color: white;
+    margin: auto;
+    width: 50%;
+    font-size: 13px;
+}
+
+label{
+    color: white;
+}
+
+.container{
+    padding: auto;
+}
+
+.form-group{
+    margin: auto;
+    width: 50%;
+}
+
+form .btn{
+    margin-left: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 150px;
+    font-family: "Avenir";
+    background-color: pink;
+    border-radius: 0px;
+    color: black;
 }
 
 /* Footer */
