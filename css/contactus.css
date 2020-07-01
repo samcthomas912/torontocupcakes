@@ -46,9 +46,17 @@ p{
 }
 
 .nav-link{
-    color: black;
+    color: black !important;
     text-decoration: none;
     font-size: 15px;
+}
+
+.active .nav-link{
+    color: #F2579A !important;
+}
+
+.nav-link:hover{
+    color: #F2579A !important;
 }
 
 /*Jumbotron*/
