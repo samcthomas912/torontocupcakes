@@ -139,6 +139,14 @@ p{
     margin-top: -100px;
 }
 
+.col-md-3:hover{
+    color:#F2579A;
+}
+
+.col-md-3:hover a{
+    color:#F2579A;
+}
+
 .product-grid:before{
     content:'';
     height: 100%;
@@ -150,6 +158,10 @@ p{
     transition: all 0.3s ease 0s;
 }
 
+.product-grid{
+    transform: scale(1);
+    transition: all .5s; 
+}
 
 .product-grid:hover{
     transform: scale(1.1);
