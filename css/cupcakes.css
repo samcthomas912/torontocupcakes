@@ -1,0 +1,137 @@
+
+h1{
+    font-family: "Didot";
+}
+
+p{
+    font-family: "Avenir";
+}
+
+/*Navigation*/
+.navbar-brand img{
+    width: 50px;
+    margin-left: 30px;
+}
+
+.navbar li img{
+    width: 20px;
+}
+
+.navbar li{
+    display: flex;
+    align-items: center;
+    font-family: "Avenir";
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color: black !important;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.active .nav-link{
+    color: #F2579A !important;
+}
+
+.nav-link:hover{
+    color: #F2579A !important;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    align-items: center;
+
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.header li{
+    margin: 10px;
+}
+
+.herotext{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 100vw;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     z-index: 1;
+}
+
+
+.header{
+    background-image: url("../images/cupcakeheader.png");
+    height: 300px;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.header .btn{
+    margin-left: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 150px;
+    font-family: "Avenir";
+    background-color: pink;
+    border-radius: 0px;
+    color: black;
+}
+
+
+
+
+/* Footer */
+.border{
+    background-color: #FFDAE6;
+    height: 40px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlink{
+    margin: 10px;
+    color: black;
+    font-family: "Avenir";
+}
+
+.contactus img{
+    margin: 10px;
+}
+
+.contactus{
+    text-align: center;
+}
