@@ -178,6 +178,173 @@ p{
   }
 
 
+  /* Modal */
+
+  p{
+    font-family: "Avenir";
+  }
+  
+  label{
+    font-family: "Avenir";
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+  
+  h3{
+    font-family: "Avenir";
+  }
+  .modal-body{display:flex;}
+  
+  .mybtn {
+    font-family: "Avenir";
+      width: calc(30% - 20px);
+      float: left;
+      display: inline-block;
+      color: black;
+      text-align: center;
+      padding: 5px;
+      box-sizing: border-box;
+    margin: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 30px;
+    border-color: black;
+    font-size: 13px;
+  }
+  
+  .mybtn:hover {
+      opacity: 0.9;
+  }
+  
+  .code {
+      color:#23B14D;
+      font-weight:700;
+  }
+  .left3 {
+      width:40%;
+      padding:0 10px 0 0;
+      box-sizing:border-box;
+      min-height:2px;
+  }
+  .right3 {
+      width: 60%;
+      padding: 0px;
+      box-sizing: border-box;
+      min-height: 310px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left3 img {
+      width:65%;
+      margin-top:0px;
+  }
+
+  .modal-header {
+    border-bottom: none !important;
+}
+  
+  input[type=text] {
+    width: 40px;
+    padding: 3px 0 0 0;
+    text-align: center;
+    border-radius: 0px;
+    border-color: #B9B9B9;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .dec  {
+    margin: 7px;
+    text-indent: -9999px;
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+    float: left;
+    text-align: center;
+    background: url("../images/minus.png") no-repeat;
+    background-size: cover;
+    border: none;
+    background-position: center;
+  }
+  
+  .form{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .inc  {
+    margin: 7px;
+    text-indent: -9999px;
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+    float: left;
+    text-align: center;
+    background: url("../images/plus.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+  }
+  
+  .numbers-row{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .buttons {
+    padding: 20px 0 0 140px;
+  }
+  
+  .right3 p {
+      margin:0;
+  }
+  .preventclose {
+      position:fixed;
+      top:0;
+      width:100%;
+      height:5px;
+  }
+  
+  
+  .addtocart{
+    background-color:#FCC0D4;
+    border: 0px;
+    padding: 12px;
+    font-family: "Avenir";
+    width: 200px;
+    margin: 15px;
+    margin-left: 0px;
+  }
+  
+  
+  
+  .endtext {
+      padding: 10px;
+      font-size: 13px;
+      color: #999;
+      font-weight: bold;
+      margin-top: 21px !important;
+      display: block;
+      float: left;
+  }
+  
+  .right3 p {
+      padding:5px;
+      margin-top: 18px;
+      font-size:14px;
+      text-align: justify;
+  }
+  
+
 
 /* Footer */
 .border{

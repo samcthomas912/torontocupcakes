@@ -12,6 +12,7 @@
 
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/incrementing.js"></script>
 
 
 <!-- Navigation -->
@@ -106,29 +107,45 @@
 </div>
 
 -->
-  <!-- Cupcake Grid -->
-  <div class = "modal fade" id = "myModal">
-    <div class = "modal-dialog">
-        <div class = "modal-content">
-            <div class = "modal-header">
-                <h1>This is the header</h1>
-            </div>
-            <div class = "modal-boy">
-                <p>This is the body</p>
-            </div>
-            <div class = "modal-footer">
-                <button type = "button" class = "btn btn-default" data-dismiss= "modal">Close</button>>
-            </div>
+<!-- Modals -->
+<div class="modal fade" id="myModalCC" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
         </div>
+        <div class="modal-body">
+          <div class="left3"><img src = "images/chocolatechocolate.png"></div>
+          <div class="right3">
+            <h3>Chocolate Chocolate</h3>
+            <p>Classic US southern red velvet cupcake with a vanilla cream cheese frosting topped with a red chocolate butterfly</p>
+            <div class="buttons123"> <a href="#" class="each mybtn">$3.25 each</a><a href="#" class="halfdz mybtn">$18.50 half dozen</a><a href="#" class="dozen mybtn">$35 dozen</a> </div>
+            <!--Quantity Change-->
+            <form method="post" action="">
+              <div class = "numbers-row">
+                
+                  <label for="name">Quantity</label>
+                  
+                  <div class = "dec button">-</div>
+                  <input type="text" name="quantity" id="quantity" value="0">
+                  <div class = "inc button">+</div>
+              </div>
+              <button class = "addtocart">Add to Cart</button>
+              </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+
   
+    <!-- Cupcake Grid -->
   <div class = "container">
     <div class = "row">
         <div class = "col-md-3">
-    <!-- Imagine a loop produced this... -->
     <div class="product">
-      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModalCC"><img src = "images/chocolatechocolate.png"></a>
       <div class="product__name">
         <p>
           <a href="#" data-toggle="modal" data-target ="#myModal">Chocolate Chocolate</a>
