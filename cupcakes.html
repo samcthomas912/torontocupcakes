@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
 
 <!-- Navigation -->
@@ -58,7 +58,7 @@
     </div>
     <div class = "herotextright">
         <p>In a Panic or Can't Decide?</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Randomize Dozen</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button" href ="#" data-toggle="modal" data-target ="#myModal">Randomize Dozen</a>
     </div>
         </div>
 </div>
@@ -76,275 +76,171 @@
         <a class="nav-link" href="#">Custom</a>
       </li>
   </ul>
+  
 
+  <!-- Vertically centered scrollable modal 
+  <div class= "container">
+    <div class = "row">
+        <div class = "col-md-3">
+            <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target ="#myModal">
+                Click Me
+              </button>
 
-  <!-- Cupcake Grid -->
-  <div class = "container">
-      <div class = "row">
-          <div class = "col-md-3">
-              <div class = "product-grid">
-                  <div class = "product-image">
-                  <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-              </div>
-            </div>
-              <div class = "product-content">
-                  <h3 class = "title">
-                      <a href = "">Chocolate Chocolate</a>
-                  </h3>
-                  <div class = "price">$3.25 each
+              <div class = "modal fade" id = "myModal">
+                  <div class = "modal-dialog">
+                      <div class = "modal-content">
+                          <div class = "modal-header">
+                              <h1>This is the header</h1>
+                          </div>
+                          <div class = "modal-boy">
+                              <p>This is the body</p>
+                          </div>
+                          <div class = "modal-footer">
+                              <button type = "button" class = "btn btn-default" data-dismiss= "modal">Close</button>>
+                          </div>
+                      </div>
                   </div>
               </div>
-          </div>
+</div>
+</div>
+</div>
 
-          <div class = "col-md-3">
-            <div class = "product-grid">
-                <div class = "product-image">
-                <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
+-->
+  <!-- Cupcake Grid -->
+  <div class = "modal fade" id = "myModal">
+    <div class = "modal-dialog">
+        <div class = "modal-content">
+            <div class = "modal-header">
+                <h1>This is the header</h1>
+            </div>
+            <div class = "modal-boy">
+                <p>This is the body</p>
+            </div>
+            <div class = "modal-footer">
+                <button type = "button" class = "btn btn-default" data-dismiss= "modal">Close</button>>
             </div>
         </div>
-            <div class = "product-content">
-                <h3 class = "title">
-                    <a href = "">Chocolate Chocolate</a>
-                </h3>
-                <div class = "price">$3.25 each
-                </div>
-            </div>
-
-        </div>
-
+    </div>
+  </div>
+  
+  <div class = "container">
+    <div class = "row">
         <div class = "col-md-3">
-            <div class = "product-grid">
-                <div class = "product-image">
-                <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-            </div>
-        </div>
-            <div class = "product-content">
-                <h3 class = "title">
-                    <a href = "">Chocolate Chocolate</a>
-                </h3>
-                <div class = "price">$3.25 each
-                </div>
-            </div>
-
-        </div>
-
-        <div class = "col-md-3">
-            <div class = "product-grid">
-                <div class = "product-image">
-                <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-            </div>
-        </div>
-            <div class = "product-content">
-                <h3 class = "title">
-                    <a href = "">Chocolate Chocolate</a>
-                </h3>
-                <div class = "price">$3.25 each
-                </div>
-            </div>
-
-        </div>
-
+    <!-- Imagine a loop produced this... -->
+    <div class="product">
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <div class="product__name">
+        <p>
+          <a href="#" data-toggle="modal" data-target ="#myModal">Chocolate Chocolate</a>
+        </p>
       </div>
-
-  <div class = "row">
-    <div class = "col-md-3">
-        <div class = "product-grid">
-            <div class = "product-image">
-            <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-        </div>
+      <div class="product__price">
+        <p>$3.25 each</p> 
       </div>
-        <div class = "product-content">
-            <h3 class = "title">
-                <a href = "">Chocolate Chocolate</a>
-            </h3>
-            <div class = "price">$3.25 each
-            </div>
-        </div>
     </div>
-
-    <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-      </div>
   </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
-      </div>
-
-  </div>
-
+  
   <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
+    <div class="product">
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <div class="product__name">
+        <p>
+          <a href="#">Product Name</a>
+        </p>
       </div>
-  </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
+      <div class="product__price">
+        <p>$10.00  
       </div>
-
-  </div>
-
-  <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-      </div>
-  </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
-      </div>
-
-  </div>
-
-</div>
-
-<div class = "row">
+    </div>  </div>
+  
     <div class = "col-md-3">
-        <div class = "product-grid">
-            <div class = "product-image">
-            <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-        </div>
+    <div class="product">
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <div class="product__name">
+        <p>
+          <a href="#">Product Name</a>
+        </p>
       </div>
-        <div class = "product-content">
-            <h3 class = "title">
-                <a href = "">Chocolate Chocolate</a>
-            </h3>
-            <div class = "price">$3.25 each
-            </div>
-        </div>
+      <div class="product__price">
+        <p>$10.00  
+      </div>
     </div>
-
+  </div>
+  
+  
+  
     <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
+    <div class="product">
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <div class="product__name">
+        <p>
+          <a href="#">Product Name</a>
+        </p>
       </div>
-  </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
+      <div class="product__price">
+        <p>$10.00  
       </div>
-
-  </div>
-
-  <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-      </div>
-  </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
-      </div>
-
-  </div>
-
-  <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-      </div>
-  </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
-      </div>
-
-  </div>
-
-</div>
-
-<div class = "row">
-    <div class = "col-md-3">
-        <div class = "product-grid">
-            <div class = "product-image">
-            <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
-        </div>
-      </div>
-        <div class = "product-content">
-            <h3 class = "title">
-                <a href = "">Chocolate Chocolate</a>
-            </h3>
-            <div class = "price">$3.25 each
-            </div>
-        </div>
     </div>
-
+    </div>
+    </div>
+  
+    <div class = "row">
     <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
+    <div class="product">
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <div class="product__name">
+        <p>
+          <a href="#">Product Name</a>
+        </p>
       </div>
-  </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
+      <div class="product__price">
+        <p>$10.00  
       </div>
-
+    </div>
   </div>
-
+  
   <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
+    <div class="product">
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <div class="product__name">
+        <p>
+          <a href="#">Product Name</a>
+        </p>
       </div>
-  </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
+      <div class="product__price">
+        <p>$10.00  
       </div>
-
-  </div>
-
-  <div class = "col-md-3">
-      <div class = "product-grid">
-          <div class = "product-image">
-          <a href = ""><img src = "images/chocolatechocolate.png" class = "pic-1" alt = ""></a>
+    </div> </div>
+  
+    <div class = "col-md-3">
+    <div class="product">
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <div class="product__name">
+        <p>
+          <a href="#">Product Name</a>
+        </p>
       </div>
-  </div>
-      <div class = "product-content">
-          <h3 class = "title">
-              <a href = "">Chocolate Chocolate</a>
-          </h3>
-          <div class = "price">$3.25 each
-          </div>
+      <div class="product__price">
+        <p>$10.00  
       </div>
-
+    </div></div>
+  
+    <div class = "col-md-3">
+    <div class="product">
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "images/chocolatechocolate.png"></a>
+      <div class="product__name">
+        <p>
+          <a href="#">Product Name</a>
+        </p>
+      </div>
+      <div class="product__price">
+        <p>$10.00  
+      </div>
+    </div></div>
+  
+  
+  
   </div>
-
-</div>
-</div>
-
 
    <!-- Footer -->
 
@@ -393,5 +289,5 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
+<script src="js/cupcakes.js"></script>
 </html>

@@ -122,80 +122,60 @@ p{
 
 /* Cupcake Grid */
 
-.product-grid{
-    font-family: "Avenir";
-    text-align: center;
-    overflow: hidden;
-    margin-top: 184px;
-    height: 300px;
 
-}
-
-.col-md-3{
+.product{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: -100px;
-}
-
-.col-md-3:hover{
-    color:#F2579A;
-}
-
-.col-md-3:hover a{
-    color:#F2579A;
-}
-
-.product-grid:before{
-    content:'';
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    transition: all 0.3s ease 0s;
-}
-
-.product-grid{
+    text-align: center;
+  }
+  
+  .product img{
     transform: scale(1);
     transition: all .5s; 
-}
-
-.product-grid:hover{
+  }
+  
+  .product:hover img{
     transform: scale(1.1);
     transition: all .5s;
-}
-
-.product-grid .product-image{
-    overflow: hidden;
-    position: relative;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.product-content{
-    text-align: center;
-    font-family: "Avenir";
-    font-size: 14px;
-    margin-top: -50px;
-}
-
-.product-content a{
-    color: black;
-    font-size: 20px;
-}
-
-.product-grid .product-image a{
+  }
+  
+  .product:hover{
+    color: #F2579A;
+  }
+  
+  .product:hover a{
+    color: #F2579A;
+    text-decoration: none;
+  }
+  
+  
+  .product__image {
     display: block;
-}
-
-.product-grid .product-image img{
+    min-height: 200px;
+    width: 80%;
+    margin: 20px;
+  }
+  
+  .product__image img{
     width: 100%;
-    height: auto;
-}
-
+  }
+  
+  .product__name p{
+    font-family: "Avenir";
+    font-size: 16px;
+    font-weight: bold;
+  } 
+  
+  .product__name a{
+    color: #000000;
+    text-decoration: none;
+  } 
+  
+  .product__price p{
+    font-family: sans-serif;
+    font-size: 14px;
+  }
 
 
 
