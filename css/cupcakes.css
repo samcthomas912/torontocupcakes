@@ -50,6 +50,20 @@ p{
     color: #F2579A !important;
 }
 
+.badge {
+    background-color: #FCC0D4 !important;
+    border-radius: 5.25rem !important;
+    color: black !important;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    z-index: 3;
+}
+
 /* Header */
 
 .header{
