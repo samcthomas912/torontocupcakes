@@ -52,19 +52,19 @@
         <li>
             <span class="cd-qty">1x</span> Product Name
             <div class="cd-price">$9.99</div>
-            <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            <a href="#0" class="cd-item-remove cd-img-replace"></a>
         </li>
 
         <li>
             <span class="cd-qty">2x</span> Product Name
             <div class="cd-price">$19.98</div>
-            <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            <a href="#0" class="cd-item-remove cd-img-replace"></a>
         </li>
 
         <li>
             <span class="cd-qty">1x</span> Product Name
             <div class="cd-price">$9.99</div>
-            <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            <a href="#0" class="cd-item-remove cd-img-replace"></a>
         </li>
     </ul> <!-- cd-cart-items -->
 
@@ -155,18 +155,19 @@
             <form method="post" action="">
               <div class = "numbers-row">
 
-                  <div class="button price">$3.25 each</div>
-                  <div class="button price">$18.50 half dozen</div>
-                  <div class="button price">$35 dozen</div>
+                
+                  <div class="button price">Half Dozen ($18.50)</div>
+                  <div class="button price">Dozen ($35)</div>
                   <div class = "inputvalue">
                      <label for="name">Quantity</label>
                     <div class = "dec button">-</div>
-                    <input type="text" name="quantity" id="quantity" value="1">
+                    <input type="text" name="quantity" id="quantity" value="0">
                     <div class = "inc button">+</div>
+                    <div id = "priceeach">$3.25 each</div>
                 </div>
               </div>
               <br><br>
-              <button class = "addtocart">Add to Cart</button>
+              <button class = "addtocart"><a href = "#">Add to Cart</a></button>
               </form>
           </div>
         </div>
@@ -296,6 +297,23 @@
   </div>
   </div>
 
+  <!--Delivery Radius-->
+  <div class = "delivery">
+    <div class = "deliveryinfo">
+      <h2>Delivery</h2>
+      <p>Cupcake delivery Toronto and GTA. Our cupcake 
+        delivery service is available 7 days a week and covers approximately 
+        80km surrounding Toronto. Sending cupcakes has never been easier. </p>
+        <p>Most deliveries can be made on the same day you order. 
+          If you need a delivery to a location that is outside of downtown Toronto we require notice at least the night before. 
+          Morning deliveries are typically for M** postal codes.</p>
+          <p>Delivery fee is based on the delivery location postal code 
+            and in special cases, time of day.</p>
+    </div>
+   <div class = "delimage">
+    <img src = "images/delivery.png">
+   </div> 
+  </div>
    <!-- Footer -->
 
    <footer>
