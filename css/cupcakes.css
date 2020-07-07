@@ -116,6 +116,11 @@ p{
     color: black;
 }
 
+.header .btn:hover{
+    background-color:#F2579A;
+}
+
+
 /*Cart*/
 /* Add to cart */
 #cd-cart {
@@ -181,7 +186,11 @@ p{
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: url("../img/cd-remove-item.svg") no-repeat center center;
+    background-image: url("../images/x.png");
+    background-size: cover;
+    background-position: center;
+    height: 12px;
+    width: 12px;
   }
   .no-touch #cd-cart .cd-item-remove:hover {
     background-color: #e0e6ef;
@@ -200,13 +209,17 @@ p{
     clear: both;
   }
   #cd-cart .checkout-btn {
+    font-family: "Avenir";
     display: block;
-    width: 100%;
+    margin: auto;
+    width: 300px;
     height: 60px;
     line-height: 60px;
-    background: #FCC0D4;
-    color: #FFF;
+    color: black;
     text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
   }
   .no-touch #cd-cart .checkout-btn:hover {
     background: #FCC0D4;
@@ -346,15 +359,20 @@ p{
     background-color:#FFDAE6;
     justify-content:left;
     color: black; 
+    height: 60px;
 }
 
 .nav .nav-link{
     color: black !important;
     font-family: "Avenir";
+    margin-left: 30px;
+    height: 35px;
+    margin-bottom: 10px;
 }
 
 .nav .active .nav-link{
-    text-decoration: underline;
+    border-bottom-style: solid;
+    border-width: 1px;
 }
 
 
@@ -392,7 +410,7 @@ p{
     display: block;
     min-height: 200px;
     width: 80%;
-    margin: 20px;
+    margin: 60px;
   }
   
   .product__image img{
@@ -519,9 +537,10 @@ p{
     display: flex;
     align-items: center;
     position: relative;
-    top: 50px;
-    left: -265px;
+    top: 60px;
+    left: -250px;
   }
+
   
   .modal-header{
     border-bottom: 0 none !important;
@@ -544,9 +563,13 @@ p{
   .numbers-row{
     display: flex;
     align-items: center;
-    width: 100%
+    width: 600px;
   }
   
+  #priceeach{
+      color: #6A6A6A;
+      font-family: "Avenir";
+  }
   
   .buttons {
     padding: 20px 0 0 140px;
@@ -567,6 +590,24 @@ p{
     margin: 20px;
     font-weight: bold;
     margin-left: 0px;
+    border-color: #6A6A6A;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .price:hover{
+      color:white;
+      background-color: #6A6A6A;
+  }
+
+  .price:active{
+    color:white;
+    background-color: #6A6A6A; 
   }
   
   
@@ -579,6 +620,9 @@ p{
     margin: 15px;
     margin-left: 0px;
   }
+
+
+
   
   
   
@@ -596,7 +640,33 @@ p{
     padding:5px;
     padding-left: 0px;
       font-size:14px;
-      text-align: justify;
+      text-align: justify
+  }
+
+
+
+  /*Delivery*/
+  .delivery{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .deliveryinfo{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+  }
+
+  .delimage img{
+   height: 350px;
+  }
+  .delimage{
+    margin-right: -50px;
   }
 
 /* Footer */
