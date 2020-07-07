@@ -2,6 +2,10 @@
 <html>
 <head>
     <title>Toronto Cupcakes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="../css/cupcakes.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/swiper.css">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -12,7 +16,7 @@
 
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="js/incrementing.js"></script>
+    <script src="../js/incrementing.js"></script>
 
 
 <!-- Navigation -->
@@ -113,34 +117,7 @@
   </ul>
   
 
-  <!-- Vertically centered scrollable modal 
-  <div class= "container">
-    <div class = "row">
-        <div class = "col-md-3">
-            <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target ="#myModal">
-                Click Me
-              </button>
 
-              <div class = "modal fade" id = "myModal">
-                  <div class = "modal-dialog">
-                      <div class = "modal-content">
-                          <div class = "modal-header">
-                              <h1>This is the header</h1>
-                          </div>
-                          <div class = "modal-boy">
-                              <p>This is the body</p>
-                          </div>
-                          <div class = "modal-footer">
-                              <button type = "button" class = "btn btn-default" data-dismiss= "modal">Close</button>>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-</div>
-</div>
-</div>
-
--->
 <!-- Modals -->
 <div class="modal fade" id="myModalCC" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -164,19 +141,92 @@
                   <div class = "inputvalue">
                      <label for="name">Quantity</label>
                     <div class = "dec button">-</div>
-                    <input type="text" name="quantity" id="quantity" value="0">
+                    <input type="text" name="quantity" id="quantity" value="1">
                     <div class = "inc button">+</div>
                     <div id = "priceeach">$3.25 each</div>
                 </div>
               </div>
               <br><br>
-              <button class = "addtocart">Add to Cart</button>
+              <a class = "add-cart" href = "#">Add to Cart</a>
               </form>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+<div class="modal fade" id="myModalCC2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="left3"><img src = "../images/chocolatechocolate.png"></div>
+        <div class="right3">
+          <h3>Chocolate Chocolate</h3>
+          <p>Classic US southern red velvet cupcake with a vanilla cream cheese frosting topped with a red chocolate butterfly</p>
+
+          <!--Quantity Change-->
+          <form method="post" action="">
+            <div class = "numbers-row">
+
+              
+                <div class="button price">Half Dozen ($18.50)</div>
+                <div class="button price">Dozen ($35)</div>
+                <div class = "inputvalue">
+                   <label for="name">Quantity</label>
+                  <div class = "dec button">-</div>
+                  <input type="text" name="quantity" id="quantity" value="1">
+                  <div class = "inc button">+</div>
+                  <div id = "priceeach">$3.25 each</div>
+              </div>
+            </div>
+            <br><br>
+            <button class = "add-cart">Add to Cart</button>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModalCC3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="left3"><img src = "../images/chocolatechocolate.png"></div>
+        <div class="right3">
+          <h3>Chocolate Chocolate</h3>
+          <p>Classic US southern red velvet cupcake with a vanilla cream cheese frosting topped with a red chocolate butterfly</p>
+
+          <!--Quantity Change-->
+          <form method="post" action="">
+            <div class = "numbers-row">
+
+              
+                <div class="button price">Half Dozen ($18.50)</div>
+                <div class="button price">Dozen ($35)</div>
+                <div class = "inputvalue">
+                   <label for="name">Quantity</label>
+                  <div class = "dec button">-</div>
+                  <input type="text" name="quantity" id="quantity" value="1">
+                  <div class = "inc button">+</div>
+                  <div id = "priceeach">$3.25 each</div>
+              </div>
+            </div>
+            <br><br>
+            <a class = "add-cart" href = "#">Add to Cart</a>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   
@@ -199,7 +249,7 @@
   
   <div class = "col-md-3">
     <div class="product">
-      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "../images/chocolatechocolate.png"></a>
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModalCC2"><img src = "../images/chocolatechocolate.png"></a>
       <div class="product__name">
         <p>
           <a href="#">Product Name</a>
@@ -212,7 +262,7 @@
   
     <div class = "col-md-3">
     <div class="product">
-      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModal"><img src = "../images/chocolatechocolate.png"></a>
+      <a class="product__image" href="#" data-toggle="modal" data-target ="#myModalCC3"><img src = "../images/chocolatechocolate.png"></a>
       <div class="product__name">
         <p>
           <a href="#">Product Name</a>
@@ -323,7 +373,7 @@
     <div class = "border"></div>
     <div class = "footer-links">
       <div class = "contactus">
-          <img src = "images/logo.png">
+          <img src = "../images/logo.png">
           <p>Mon - Sat: 10am - 9pm</p>
           <p>Sun: 11am - 7pm</p>
           <div class = "socialicons">
@@ -364,6 +414,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="js/cupcakes.js"></script>
-<script src="js/main.js"></script> <!-- Gem jQuery -->
+<script src="../js/cupcakes.js"></script>
+<script src="../js/main.js"></script> <!-- Gem jQuery -->
 </html>

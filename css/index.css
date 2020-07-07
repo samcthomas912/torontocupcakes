@@ -95,7 +95,7 @@ button.whiteBtn:hover {
 /* Add to cart */
 #cd-cart {
     position: fixed;
-    top: 300;
+    top: 70px;
     right: -100%;
     height: 100%;
     width: 400px;
@@ -139,6 +139,10 @@ button.whiteBtn:hover {
   }
   #cd-cart .cd-qty, #cd-cart .cd-price {
     color: #a5aebc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
   }
   #cd-cart .cd-price {
     margin-top: .4em;
