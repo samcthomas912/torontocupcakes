@@ -677,10 +677,11 @@ font-size: 50px;
     color: #F6F6F6;
     display: flex;
     align-items: center;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
     margin-top: 55px;
   }
+  
 
   .deliveryinfo{
     display: flex;
@@ -688,6 +689,10 @@ font-size: 50px;
     width: 500px;
     margin: auto;
   }
+
+.deliveryinfo h2 {
+  margin-bottom: 25px;
+}
 
   .delimage img{
    height: 350px;
