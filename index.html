@@ -40,12 +40,43 @@
         <li class="nav-item">
             <a class="nav-link" href="/contactus.html">CONTACT</a>
           </li>
-          <li class="nav-item cart">
-            <a class="nav-link" href="#"><img class="cart" src = "images/shoppingcart.png"></a>
+          <li class="nav-item cart" id="cd-cart-trigger">
+            <a class="nav-link cd-img-replace" href="#"><img src = "images/shoppingcart.png"></a>
           </li>
       </ul>
     </div>
   </nav>
+
+
+  <div id="cd-cart">
+    <h2>Cart</h2>
+    <ul class="cd-cart-items">
+        <li>
+            <span class="cd-qty">1x</span> Product Name
+            <div class="cd-price">$9.99</div>
+            <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+        </li>
+
+        <li>
+            <span class="cd-qty">2x</span> Product Name
+            <div class="cd-price">$19.98</div>
+            <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+        </li>
+
+        <li>
+            <span class="cd-qty">1x</span> Product Name
+            <div class="cd-price">$9.99</div>
+            <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+        </li>
+    </ul> <!-- cd-cart-items -->
+
+    <div class="cd-cart-total">
+        <p>Total <span>$39.96</span></p>
+    </div> <!-- cd-cart-total -->
+
+    <a href="#0" class="checkout-btn">Checkout</a>
+    
+</div> <!-- cd-cart -->
 
 
 
@@ -183,4 +214,5 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
+<script src="js/main.js"></script> <!-- Gem jQuery -->
 </html>
