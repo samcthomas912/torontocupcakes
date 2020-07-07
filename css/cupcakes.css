@@ -143,7 +143,7 @@ font-size: 50px;
 
 #cd-cart {
     position: fixed;
-    top: 300;
+    top: 70px;
     right: -100%;
     height: 100%;
     width: 400px;
@@ -507,6 +507,7 @@ font-size: 50px;
       padding:0 10px 0 0;
       box-sizing:border-box;
       min-height:2px;
+      margin-top: -50px;
   }
   .right3 {
       width: 60%;
@@ -524,8 +525,8 @@ font-size: 50px;
     align-items: center;
   }
   .left3 img {
-      width:100%;
-      margin-top: -60px;
+      width:80%;
+      margin-top:-60px;
   }
   
   input[type=text] {

@@ -13,11 +13,11 @@ $(function() {
       }
           else{
             if ($button.text() == "Half Dozen ($18.50)"){
-              newVal = parseFloat(oldValue) + 6;
+              newVal =  6;
             }
           else{
             if($button.text() == "Dozen ($35)"){
-              newVal = parseFloat(oldValue) + 12;
+              newVal =  12;
             }
           // Don't allow decrementing below zero
          else{

@@ -139,6 +139,10 @@ button.whiteBtn:hover {
   }
   #cd-cart .cd-qty, #cd-cart .cd-price {
     color: #a5aebc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
   }
   #cd-cart .cd-price {
     margin-top: .4em;
