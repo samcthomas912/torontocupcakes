@@ -63,9 +63,7 @@ button.whiteBtn:hover {
     padding-right:40px;
 }
 
-.cart {
-    width: 25px;
-}
+
 
 .nav{
     display: flex;
@@ -91,6 +89,8 @@ button.whiteBtn:hover {
 .nav-link:hover{
     color: #F2579A !important;
 }
+
+
 
 /* Add to cart */
 #cd-cart {
