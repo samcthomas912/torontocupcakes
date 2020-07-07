@@ -1,6 +1,7 @@
 
 h1{
     font-family: "Didot";
+
 }
 
 p{
@@ -73,7 +74,10 @@ p{
     display: flex;
     align-items: center;
     margin-top: 70px;
+}
 
+.header h1 {
+font-size: 50px;
 }
 
 .header ul{
@@ -108,10 +112,14 @@ p{
     background-size: cover;
 }
 
+.header h3 {
+    font-family: "Avenir";
+    font-size: 28px;
+}
 
 .header .btn{
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 15px;
     width: 180px;
     font-family: "Avenir";
