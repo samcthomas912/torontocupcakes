@@ -371,6 +371,26 @@ font-size: 50px;
     }
   }
 
+  .add-cart{
+    background-color: #FCC0D4;
+    color: black;
+    padding: 10px;
+    margin-top: 100px;
+    cursor: pointer;
+  }
+
+  .add-cart a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Avenir";
+  }
+
+  .add-cart:hover{
+    background-color: #F2579A;
+    color: white;
+    text-decoration: none;
+  }
+
 /* Cupcake Nav */
 
 .nav{
@@ -464,13 +484,17 @@ font-size: 50px;
   
   label{
     font-family: "Avenir";
-    margin-bottom: 0;
+    margin: auto;
+    margin-right: 10px;
   }
   
   h3{
     font-family: "Avenir";
   }
-  .modal-body{display:flex;}
+  .modal-body{
+    display:flex;
+  }
+
   
   .mybtn {
     font-family: "Avenir";
@@ -506,7 +530,7 @@ font-size: 50px;
   }
   .right3 {
       width: 60%;
-      padding: 0px;
+      padding-right: 100px;
       box-sizing: border-box;
       min-height: 310px;
     font-size: 17px;
@@ -563,6 +587,7 @@ font-size: 50px;
     position: relative;
     top: 60px;
     left: -250px;
+    margin-bottom: 35px;
   }
 
   
@@ -593,6 +618,9 @@ font-size: 50px;
   #priceeach{
       color: #6A6A6A;
       font-family: "Avenir";
+      margin-bottom: -10px;
+      margin-left: 10px;
+      font-size: 14px;
   }
   
   .buttons {
@@ -612,6 +640,7 @@ font-size: 50px;
   .price{
     font-size: 10px;
     margin: 20px;
+    margin-top: -5px;
     font-weight: bold;
     margin-left: 0px;
     border-color: #6A6A6A;

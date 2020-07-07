@@ -85,6 +85,7 @@ function move_navigation( $navigation, $MQ) {
 
 
 //Add to Cart
+
 let carts = document.querySelectorAll('.add-cart');
 
 let products = [ 
