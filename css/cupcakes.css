@@ -1,6 +1,7 @@
 
 h1{
     font-family: "Didot";
+
 }
 
 p{
@@ -56,12 +57,14 @@ p{
     display: inline-block;
     font-size: 12px;
     line-height: 1;
-    padding: 3px 7px;
+    padding: 150px 7px 15px 20px;
     text-align: center;
     vertical-align: middle;
     white-space: nowrap;
     z-index: 3;
     position: absolute;
+    right: 40px;
+    top: 13px;
   
 }
 
@@ -70,7 +73,11 @@ p{
 .header{
     display: flex;
     align-items: center;
+    margin-top: 70px;
+}
 
+.header h1 {
+font-size: 50px;
 }
 
 .header ul{
@@ -105,10 +112,14 @@ p{
     background-size: cover;
 }
 
+.header h3 {
+    font-family: "Avenir";
+    font-size: 28px;
+}
 
 .header .btn{
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 15px;
     width: 180px;
     font-family: "Avenir";
@@ -124,6 +135,10 @@ p{
 
 /*Cart*/
 /* Add to cart */
+.cart {
+  position: relative;
+}
+
 #cd-cart {
     position: fixed;
     top: 300;
