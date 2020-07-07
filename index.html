@@ -15,12 +15,16 @@
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/index.html"><img src = "images/logo.png"></a>
+    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="navbar-brand" href="/index.html"><img class="logo" src = "images/logo.png"></a>
+        </li>
+        
         <li class="nav-item active">
             <a class="nav-link" href="/index.html">HOME<span class="sr-only">(current)</span></a>
           </li>
@@ -80,78 +84,93 @@
 <!-- Jumbotron -->
 <main>
     <div class="hero">
+      <div>
+        <img class="dripImg" src="images/swirl.png">
+      </div>
         <div class = "herotext">
-      <h1>The Tastiest Treats Around</h1>
-      <p>Canada’s Favorite haven for gourmet cupcakes. We pride outselves on great tasting treats made from only the finest of ingredients.
-          <br>
-        <a class="btn btn-primary btn-lg" href="/cupcakes.html" role="button">Order Online</a>
-      </p>
-      <img src="images/heroimage.png">
-       
+      <h1>THE TASTIEST<br>TREATS AROUND</h1>
+      <p>Canada’s Favorite haven for gourmet cupcakes. We pride outselves on great tasting treats made from only the finest of ingredients. </p>
+        <button class="pinkBtn btn btn-primary btn-lg" href="/cupcakes.html" role="button">Order Online</button>
     </div>
 </div>
     </div>
 </main>
 
-  <!-- Swiper -->
-  <div class="slide-wrap">
-  
-    <div class="slider">
-      <div class="slide" id="slide-1"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-2"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-3"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-4"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-5"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-6"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-7"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-8"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-9"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-      <div class="slide" id="slide-10"><img src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
-    </div>
-    
+
+ <!-- Covid Notice -->
+ <div class = "importantnews">
+    <h1>COVID 19 UPDATE</h1>
+      <h2>Reopen for Delivery</h2>
+        <p>Thank you all for being patient with us while we ensure our staff and their families are safe. We have now reopen for business and have put in place the protocals necessary to safely and promptly supply you with cupcakes! At this time we have a <span class="boldText">minimum order of a dozen</span>. Online ordreing is available 24 hours a day, 7 days a week. Order anytime before 5PM and we will contactlessly deliver your cupcake order the following day. <span class="boldText">At this time pick up is NOT available.</span> In addtion, we are  <span class="boldText">NOT able to process same day orders.</span></p>
   </div>
+
 
   <div class = "break"></div>
 
+ <!-- Delivery Policy -->
   <div class = "section1">
-      <img src = "images/cupcakes.png">
-      <div class = "content">
-          <h1>LOREM IPSUM</h1>
-          <br><br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+    <div class="deliveryImg">
+      <div class="map">
+        <div><img class="banner" src = "images/banner.png"></div>
+      </div>
+      <div class="deliveryImgText">
+        <h2>80km Delivery Radius</h2>
+        <p>We deliver to: Hamilton; Barrie; Markham; Scarborough; Vaughn,; Ajax; and Pickering to name a few.</p>
+      </div>
+    </div>
+      <div class = "content delivery">
+          <h1>DELIVERY POLICY</h1>
+            <h3>Locations</h3>
+              <p>Cupcake delivery <span class="boldText">Toronto and GTA</span> (approximately 80km surrounding Toronto). This includes Hamilton, Barrie, Markham, Scarborough, Vaughn, Ajax, and Pickering, to name a few. </p>
+            <h3>Times</h3>
+              <p>Our cupcake delivery service is available <span class="boldText">7 days a week</span>. Most deliveries can be made on the <span class="boldText">same day you order</span>. If you need a delivery to a location that is outside of downtown Toronto we require notice at least the night before. Morning deliveries are typically for M** postal codes.</p>
+            <h3>Fees</h3>
+              <p>Delivery fee is based on the delivery location postal code and in special cases, time of day. Order three dozen or more to downtown Toronto and get <span class="boldText">free delivery</span> or greatly reduced for other locations.</p>
       </div>
   </div>
 
+  <!-- Swiper -->
+<section class="cupcakeSwip">
+  <div class="cupcakeHead">
+    <h1>CUPCAKES</h1>
+    <p class="cupcakeLink"><a href="../cupcakes.html">VIEW ALL</a></p>
+  </div>
+  <div class="slide-wrap">
+    <div class="slider">
+      <div class="slide" id="slide-1"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+      <div class="slide" id="slide-2"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+      <div class="slide" id="slide-3"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+      <div class="slide" id="slide-4"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+      <div class="slide" id="slide-5"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+      <div class="slide" id="slide-6"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+      <div class="slide" id="slide-7"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+      <div class="slide" id="slide-8"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+      <div class="slide" id="slide-9"><img class="slideImg" src = "images/chocolatechocolate.png">Chocolate Chocolate</div>
+    </div>
+  </div>
+</section>
+
   <div class = "section2">
       <div class = "centercard">
-          <h1>LOREM IPSUM</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Order Online</a>
+          <h1>SPECIAL OCCASIONS</h1>
+          <p>Have a wedding, birthday party, or corporate event coming up? Toronto Cupcake would love to help make your special occasion one to remember.</p>
+            <button class="pinkBtn btn btn-primary btn-lg" href="#" role="button">Order Online</button>
           </div>
   </div>
 
   <div class = "section3">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <img src = "images/cupcakes2.png">
+    <div class="storyText">
+      <h1>OUR STORY</h1>
+    <p>We are driven by loving what we do and what we make everyday. We get to use the finest ingredients to make what we believe are the tastiest treats around. We love the idea that our treats are making people happy every time they bite into one. How much fun is that!</p>
+        <button class="whiteBtn btn btn-primary btn-lg" href="/cupcakes.html" role="button">Contact Us</button>
+      </div>  
+        <img src = "images/suppliesMask.png">
   </div>
 
   <!-- Footer -->
 
   <footer>
-      <div class = "border"></div>
+      <div class = "pinkBorder"></div>
       <div class = "footer-links">
         <div class = "contactus">
             <img src = "images/logo.png">
