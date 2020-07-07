@@ -1,42 +1,70 @@
-
+/*Globals*/
 h1{
     font-family: "Didot";
+
+}
+
+h2 {
+    font-family: "Avenir";
+}
+
+h3 {
+    font-family: "Avenir";
+
 }
 
 p{
     font-family: "Avenir";
+    font-size: 16px;
 }
 
-/* Covid Header */
-.importantnews{
-    display: flex;
-    align-items: center;
-    background-color: #FFDAE6;
-    height: 50px;
-    color: black;
-    font-size: 11px;
+button.pinkBtn { 
+    margin-top: 20px;
+    font-size: 15px;
+    width: 150px;
+    font-family: "Avenir";
+    background-color: pink;
+    border: none;
+    border-radius: 0;
+    color: #111113;
 }
 
-.importantnews p{
-    margin: auto;
+button.pinkBtn:hover {
+    background-color: #F2579A;
+    
 }
+
+button.whiteBtn{
+    border-color: #F6F6F6;
+    color: #F6F6F6;
+    background-color:#111113;
+    font-size: 15px;
+    width: 150px;
+    font-family: "Avenir";
+    border-radius: 0;
+}
+
+button.whiteBtn:hover {
+    background-color: #F6F6F6;
+    color: #111113;
+}
+
 
 /*Navigation*/
-.navbar-brand img{
-    width: 50px;
-    margin-left: 30px;
-}
-
-.navbar li img{
-    width: 20px;
+.logo{
+    width: 60px;
 }
 
 .navbar li{
     display: flex;
     align-items: center;
     font-family: "Avenir";
-    padding-left: 20px;
-    padding-right:20px;
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+.cart {
+    width: 25px;
 }
 
 .nav{
@@ -51,9 +79,9 @@ p{
 }
 
 .nav-link{
-    color: black !important;
+    color: #111113 !important;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .active .nav-link{
@@ -64,94 +92,72 @@ p{
     color: #F2579A !important;
 }
 
+
 /*Jumbotron*/
 
+
+
 main{
-    width: 100%;
-    overflow: hidden;
+  
+    background-color: #111113;
+    background-image: url("../images/drip.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position-x: right;
+   background-size: 80vh;
+   position: relative;
+  }
+
+  .dripImg {
+      height: 115vh;
   }
 
   .hero{
     width: 100%;
-    max-width: 100vw;
     text-align: center;
-    margin: 0 auto;
-    position: relative; 
+    display: flex;
+  }
+
+  .herotext {
+    color: #F6F6F6;
+    text-align: left;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 75vh;
   }
 
   .hero h1{
-    font-size: 50px;
-    width: 400px;
-    height: 200px;
-    margin-left:auto;
-    margin-right: auto;
-    position: absolute; 
-    top: 10vh;
-    left: 0;
-    right: 40px;
-    bottom: 0;
-    z-index: 1;
-    color: white;
-    font-family: "Didot";
-    text-align: left;
+    font-size: 60px;
   }
+
   .hero p{
     font-size: 16px;
-    width: 430px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute; 
-    top: 30vh;
-    left: 0;
-    right: 0px;
-    bottom: 0;
-     z-index: 1;
-    color: white;
-    font-family: "Avenir";
-    text-align: left;
+    width: 60%;
+    padding-top: 10px;
   }
 
-  .hero img{
-    width: 100vw;
-  }
-
-.hero .btn{
-    margin-left: auto;
-    margin-top: 20px;
-    font-size: 15px;
-    width: 150px;
-    font-family: "Avenir";
-    background-color: pink;
-    border-radius: 0px;
-    color: black;
+/* Covid Header */
+.importantnews{
+    text-align: center;
+    color: #111113;
+    margin-top: 5%;
+}
+.importantnews h2 {
+    padding-top: 20px;
+    font-size: 28px;
+    color: #F2579A
 }
 
-/* Slider */
+.importantnews p{
+    padding: 20px 150px 60px 150px;
+}
 
-.slider {
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 60px;
-  }
-  .slide {
-    width: 260px;
-    flex-shrink: 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family:"Didot";
-  }
+.boldText {
+    font-weight: bold;
+}
 
-  .slide img{
-      height: 100%;
-      padding: 10px;
-  }
+
+
 
   /*Sections*/
 
@@ -163,40 +169,101 @@ main{
     background-size: cover;
 }
 
+/* Delivery Section */
 .section1{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color:#111113;
-    color: white;
+    color: #F6F6F6;
 }
 
-.section1 img{
-    height: 400px;
-    margin: 50px;
-    margin-right: 0px;
+.deliveryImg {
+    margin: 80px;
+    width: 100%;
 }
+
+.delivery h3 {
+    font-size: 28px;
+    margin-top: 35px;
+    color: pink;
+}
+
+
+.map{
+    background-image: url("../images/map.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 420px;
+}
+
+.banner {
+    width: 200px;
+    position: relative;
+    margin-top: 2%;
+}
+
+.deliveryImgText {
+    border: 2px solid #F6F6F6;
+    padding: 15px;
+    text-align: center;
+}
+.deliveryImgText h2 {
+    font-size: 28px;
+
+}
+
 
 .content{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    margin-right: 80px;
 }
 
-.centercard .btn{
-    border-radius: 0px;
-    border-color: black;
-    color: black;
-    background-color: white;
-    font-size: 15px;
-    width: 150px;
-    font-family: "Avenir";
+
+
+
+/* Cupcake Section */
+.cupcakeHead {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 
+.cupcakeLink a {
+    color: #F2579A;
+    text-decoration: underline;
+}
+
+.slider {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 80px;
+  }
+  .slide {
+    width: 260px;
+    flex-shrink: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+  }
+
+.slideImg {
+    padding-bottom: 10px;
+}
+
+
+/* Special */
 .section2{
     display: flex;
     justify-content: center;
-    background-image: url("../images/bakingtools.png");
+    background-image: url("../images/specialDisplay2.png");
     background-position: center;
 }
 
@@ -206,33 +273,45 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    padding: 50px;
+    background-color: #F6F6F6;
+    padding: 100px 150px 100px 150px;
     margin: 100px;
     text-align: center;
     box-shadow: 5px 10px 40px #111113b7;
 }
 
+.centercard h1 {
+    margin-bottom: 30px;
+}
+
+/* Story */
 .section3{
     display: flex;
     align-items: center;
 }
 
 .section3 img{
-    width:100vw;
+   width: 100%;
 }
 
-.section3 p{
+.storyText{
     position: absolute;
     width: 450px;
-    color: white;
+    color: #F6F6F6;
     margin-left: 60px;
 }
 
+.storyText p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 /* Footer */
-.border{
-    background-color: #FFDAE6;
+.pinkBorder{
+    background-color: pink;
     height: 40px;
+    border: none;
 }
 
 .footer-links{
@@ -249,7 +328,7 @@ main{
 
 .footerlink{
     margin: 10px;
-    color: black;
+    color: #111113;
     font-family: "Avenir";
 }
 
