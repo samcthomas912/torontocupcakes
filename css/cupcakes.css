@@ -443,17 +443,22 @@ font-size: 50px;
     font-size: 16px;
     font-weight: bold;
   } 
+
+  .product__name {
+    line-height: 1;
+    margin-top: 5px;
+  }
   
   .product__name a{
     color: #000000;
     text-decoration: none;
-  
   } 
   
   .product__price p{
     font-family: sans-serif;
     font-size: 14px;
     margin-bottom: 35px;
+
   }
 
 
@@ -646,8 +651,6 @@ font-size: 50px;
   }
 
 
-
-  
   
   
   .endtext {
@@ -675,10 +678,11 @@ font-size: 50px;
     color: #F6F6F6;
     display: flex;
     align-items: center;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
     margin-top: 55px;
   }
+  
 
   .deliveryinfo{
     display: flex;
@@ -686,6 +690,10 @@ font-size: 50px;
     width: 500px;
     margin: auto;
   }
+
+.deliveryinfo h2 {
+  margin-bottom: 25px;
+}
 
   .delimage img{
    height: 350px;
