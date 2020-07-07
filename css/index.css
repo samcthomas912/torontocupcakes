@@ -322,14 +322,14 @@ main{
     background-color: #111113;
     background-image: url("../images/drip.jpg");
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
     background-position-x: right;
-   background-size: 80vh;
+   background-size: 77vh;
    position: relative;
   }
 
   .dripImg {
-      height: 115vh;
+      height: 125vh;
   }
 
   .hero{
@@ -342,7 +342,7 @@ main{
     color: #F6F6F6;
     text-align: left;
     position: absolute;
-    margin-top: 30vh;
+    margin-top: 47vh;
     margin-left: 75vh;
   }
 
